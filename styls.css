@@ -1,0 +1,463 @@
+html,body
+{
+	background-image: url('https://butovskiy.github.io/First-website/img/2.1.jpg');
+	font-size: 15px;
+	font-family: Google Sans;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	display: flex;
+	width: 100%;
+	background-color: white;
+	align-items: center;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+	height: 150px;
+	margin-bottom: 40px;
+}
+
+.cap
+{
+	display: flex;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.logo
+{
+	width: 120px;
+	height: 120px;
+	align-items: center;
+}
+
+#name-header
+{
+	display: flex;
+	align-items: center;
+	color: gray;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.contaner
+{
+	display: flex;
+	flex-direction: column;
+}
+
+nav
+{
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+	font-weight: bold;
+	width: 50%;
+}
+
+nav a
+{
+	color: gray;
+	padding-bottom: 2px;
+}
+
+nav a:hover
+{
+	color: #f2683a;
+	padding-bottom: 2px;
+	text-decoration: none;
+}
+
+.content
+{
+	color: gray;
+	padding: 10px;
+	margin: 0 auto;
+	width: 50%;
+	font-size: 15px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #f2683a;
+}
+
+a:hover
+{
+	color: gray;
+}
+
+.images
+{
+	width: 450px;
+	height: 300px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+.tab
+{
+	display: flex;
+	order: 1;
+	flex-basis: 50%;
+	justify-content: center;
+	margin: 20px;
+}
+
+table
+{
+	color: gray;
+	padding: 10px;
+	padding-top: 20px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+	margin-bottom: 30px;
+}
+
+td 
+{
+	padding: 20px;
+}
+
+
+.form
+{
+	display: flex;
+	order: 2;
+	justify-content: center;
+	flex-basis: 50%;
+	margin: 20px;
+}
+
+#form-text
+{
+	color: gray;
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+form
+{
+	color: gray;
+	margin: 0 auto;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 35px;
+	padding-top: 10px;
+	width: 300px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+}
+
+input
+{
+	color: gray;
+	font-family: Google Sans;
+	background-color: transparent;
+	border: 2px solid transparent;
+}
+
+input:hover
+{
+	color: gray;
+	font-family: Google Sans;
+	background-color: transparent;
+	border: 2px solid #f2683a;
+}
+select
+{
+	color: gray;
+	padding: 10px;
+	font-family:Google Sans;
+	background-color: transparent;
+	border: 2px solid transparent;
+	height: 80px;
+}
+
+textarea
+{
+	color: gray;
+	padding: 10px;
+	font-family: Google Sans;
+	background-color: transparent;
+	border: 2px solid transparent;
+}
+
+#bot 
+{
+	color: gray;
+	margin-top: 30px;
+	font-family: Google Sans;
+	background-color: transparent;
+	border: 2px solid gray;
+}
+
+#bot:hover
+{
+	color: #f2683a;
+	margin-top: 30px;
+	font-family: Google Sans;
+	background-color: transparent;
+	border: 2px solid #f2683a;
+}
+
+footer
+{
+	margin-top: 30px;
+	background-color: white;
+	font-weight: bold;
+	flex-basis: 100%;
+	height: 60px;
+	padding-top: 50px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+}
+
+#foot 
+{
+	color: gray;
+	margin-left: 50px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+
+@media screen and (max-device-width: 500px)
+{
+	html,body
+	{
+		background-image: url('https://butovskiy.github.io/First-website/img/2.1.jpg');
+		font-family: Google Sans;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	header
+	{
+		display: flex;
+		width: 100%;
+		background-color: white;
+		box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+		height: 270px;
+		margin-bottom: 50px;
+	}
+
+	.cap
+	{
+		display: flex;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.logo
+	{
+		width: 270px;
+		height: 270px;
+		align-items: center;
+	}
+
+	#name-header
+	{
+		display: flex;
+		align-items: center;
+		color: gray;
+		font-weight: bold;
+		font-size: 45px;
+	}
+
+	.contaner
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	nav
+	{
+		display: flex;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		flex-direction: column;
+		font-size: 45px;
+		font-weight: bold;
+		width: 80%;
+	}
+
+	nav a
+	{
+		color: gray;
+		padding-bottom: 20px;
+	}
+
+	nav a:hover
+	{
+		color: #f2683a;
+		padding-bottom: 20px;
+		text-decoration: none;
+	}
+
+	.content
+	{
+		color: gray;
+		padding: 10px;
+		margin: 0 auto;
+		width: 80%;
+		font-size: 28px;
+	}
+
+	.images 
+	{
+		width: 600px;
+		height: 400px;
+		box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+	}
+
+	a
+	{
+		text-decoration: none;
+		color: #f2683a;
+	}
+
+	a:hover
+	{
+		color: gray;
+	}
+
+
+	.tab
+	{
+		display: flex;
+		order: 2;
+		flex-basis: 80%;
+		justify-content: center;
+		margin: 20px;
+	}
+
+	table
+	{
+		font-size: 35px;
+		width: 78%;
+		color: gray;
+		padding: 15px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+		margin-bottom: 30px;
+	}
+
+	td 
+	{
+		padding: 10px;
+	}
+
+	.form
+	{
+		display: flex;
+		order: 1;
+		justify-content: center;
+		flex-basis: 80%;
+		margin: 20px;
+		font-size: 35px;
+	}
+
+	#form-text
+	{
+		display: flex;
+		justify-content: center;
+		font-size: 65px;
+		font-weight: bold;
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	form
+	{
+		color: gray;
+		margin: 0 auto;
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-bottom: 35px;
+		padding-top: 10px;
+		width: 70%;
+		box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+	}
+
+	input
+	{
+		font-size: 35px;
+		color: gray;
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid transparent;
+	}
+
+	input:hover
+	{
+		font-size: 35px;
+		color: gray;
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid #f2683a;
+	}
+
+	select
+	{
+		font-size: 35px;
+		color: gray;
+		padding: 10px;
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid transparent;
+		height: 60px;
+	}
+
+	textarea
+	{
+		font-size: 35px;
+		padding: 10px;
+		color: gray;
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid transparent;
+	}
+
+	#bot 
+	{
+		color: gray;
+		margin-top: 30px;
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid gray;
+	}
+
+	#bot:hover
+	{
+		color: #f2683a;
+		margin-top: 30px;
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid #f2683a;
+	}
+
+	footer
+	{
+		display: flex;
+		width: 100%;
+		background-color: white;
+		box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+		height: 120px;
+	}
+
+	#foot 
+	{
+		margin-top: 20px;
+		color: gray;
+		margin-left: 50px;
+		font-weight: bold;
+		font-size: 38px;
+	}
+}

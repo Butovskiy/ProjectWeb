@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+    	<meta charset="UTF-8">
+    	<link rel="stylesheet" type="text/css" href="styls.css">
+    	<title>Задание №3</title>
+	</head>
+	<body>
+		<header>
+			<div class="cap">
+				<img class="logo" src="img/Logo.png" />
+				<div id="name-header">Dan.Butique - Фотограф Краснодара</div>
+			</div>
+		</header>
+		
+	<div class="contaner">	
+			<nav>
+					<a href="https://www.kubsu.ru/">Портфолио</a>
+					<a href="https://www.kubsu.ru/">Услуги</a>
+					<a href="https://www.kubsu.ru/">Прайс</a>
+					<a href="https://www.kubsu.ru/">Контакты</a>
+			</nav>
+		
+		<div class="content">
+
+		<ol>
+			<li><a href="http://example.com">Абсолютная гиперссылка на главную страницу сайта example.com</a></li>
+			<li><a href="https://example.com">Абсолютная на главную сайта example.com в протоколе https</a></li>
+			<li><a href="ftp://tavalik.ru/Temp/file.txt">Ссылка на файл на сервере FTP без авторизации</a></li>
+			<li><a href="ftp://user:pass123@tavalik.ru/Temp/file.txt">Ссылка на файл на сервере FTP с авторизацией</a></li>
+			<li><a href="https://www.kubsu.ru#m1">Cсылка на фрагмент страницы некоторого сайта</a></li>
+			<li><a href="#m1"> Cсылка на фрагмент текущей страницы</a></li>
+			<li><a href="https://www.kubsu.ru?product=1234&utm_source=google">Cсылка с двумя параметрами в URL</a></li>
+       		<li>
+       		Cписок ссылок основной навигации сайта с подписями title</br>
+       		 		<ul>
+          				<li><a href="https://www.kubsu.ru/" title="S1">Ссылка1</a></li>
+          				<li><a href="https://www.kubsu.ru/" title="S2">Ссылка2</a></li>
+         				<li><a href="https://www.kubsu.ru/" title="S3">Ссылка3</a></li>
+        			</ul>
+        	</li>
+        	<li><a>Cсылка без href</a></li>
+        	<li><a href=""> Cсылка с пустым href</a></li>
+        	<li><a href="https://www.kubsu.ru/" rel="nofollow"> Cсылка, по которой запрещен переход поисковикам</a></li>
+        	<li><a href="https://www.kubsu.ru/" rel="noindex">  Ссылка, запрещенная для индексации поисковиками</a></li>
+        	<li>Пробная версия <a href="https://www.kubsu.ru/">контекстной ссылки</a> в тексте</li>
+        	<li>Ссылка-изображение:</br>
+        		<br><a href="https://www.kubsu.ru/"><img class="images" src="https://vsthemes.org/uploads/posts/2017-10/1582030821_marble_vsthemes_ru-16.jpg"  title="Ссылка-изображение"></a></li></br>
+        	<li>Ссылки из прямоугольных и круглых областей картинки:</br>
+				<br><map name = "click">
+					<area shape = "circle" coords="250, 130, 85" href="https://www.kubsu.ru/" title="Круг">
+    				<area shape = "rect" coords="10,10,130,240" href="https://www.kubsu.ru/" title="Прямоугольник">
+    			</map>
+				<img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP26SXVnGDLbtQGizpXaAZHO8FtDmmTp1RPV1f2vHU6xRTV9gmi7V_aspDt_sKemh3yuc&usqp=CAU" usemap="#click"></br>
+   			</li>
+        	<br><li><a href="/str.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+        	<li><a href="/about/str.html">Относительная ссылка на страницу в каталоге about</a></li>
+        	<li><a href="/str.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+        	<li><a href="/2/first/str.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+        	<li><a href="/">Сокращенная ссылка на главную</a></li>
+        	<li><a href="/str.html">Сокращенная ссылка на внутреннюю</a></li></br>
+		</div>
+		<div class="tab">
+		<table>
+      		<tr>
+        		<th>1</th>
+        		<th>2</th>
+        		<th>3</th>
+      		</tr>
+     		<tr bgcolor="white">
+        		<td colspan="2">Ячейка 11 объединенная с 12</td>
+      			<td>Ячейка 13</td>
+      		</tr>
+      		<tr>
+        		<td>Ячейка 21</td>
+        		<td>Ячейка 22</td>
+        		<td>Ячейка 23</td>
+      		</tr>
+      		<tr bgcolor="white">
+        		<td>Ячейка 31</td>
+        		<td>Ячейка 32</td>
+        		<td>Ячейка 33</td>
+      		</tr>
+      		<tr>
+        		<td colspan="3" align="center">Ячейка 41-43</td>
+      		</tr>
+      		<tr bgcolor="white">
+        		<td>Ячейка 51</td>
+        		<td>Ячейка 52</td>
+        		<td>Ячейка 53</td>
+      		</tr>
+    	</table>
+    </div>
+		<div class="form">
+        	<form naction="/" method="post">
+        		<font id="form-text">Форма</font>
+        		<label>
+        			Имя:&nbsp&nbsp <font color="red">*</font>
+        			<input type="txt" name="Name" placeholder="Введите ваше имя" size="20" required />	
+        		</label></br>
+
+        		<label>
+        			E-mail:<font color="red">*</font>
+       				<input type="email" name="Email" placeholder="Введите вашу почту" required />
+        		</label></br>
+
+        		<label>
+        			Дата рождения: 
+        			<input style="color:gray" type="date" name="Birthday" />
+        		</label></br>
+
+        		Пол:
+        		<label>
+        			<input type="radio" checked="checked" name="Pol" value="1" />
+       				М
+       			</label>
+      			<label>
+      				<input type="radio" name="Pol" value="2" />
+        			Ж
+        		</label></br>
+
+        		Количество конечностей:</br>
+        		<label>
+        			<input type="radio" checked="checked" name="Body"  />
+       				0
+       			</label>
+      			<label>
+      				<input type="radio" name="Body"  />
+        			1
+        		</label>
+        		<label>
+        			<input type="radio"  name="Body"  />
+       				2
+       			</label>
+      			<label>
+      				<input type="radio" name="Body"  />
+        			3
+        		</label>
+        		<label>
+      				<input type="radio" name="Body"  />
+        			4
+        		</label><br />
+
+        		<br>Сверхспособности:</br>
+        		<select name="Super" multiple="multiple">
+          			<option value="1" >Бессмертие</option>
+          			<option value="2">Прохождение сквозь стены &nbsp</option>
+        			<option value="3">Левитация</option>
+        			<option value="4">Быть Сергеем Синицей</option>
+        			<option value="5">Компилировать на бумаге</option>
+       			</select></br>
+
+       			<br>Биография:</br>
+       			<textarea name="Life" cols="25" rows="4" placeholder="Расскажите о себе"></textarea></br>
+
+       			<input type="checkbox" name="check" required>
+       			<font color="red">*</font>C контрактом ознакомлен(а)</input></br>
+
+       			<input id="bot" type="submit" value="Отправить" />
+        	</form>
+        </div>
+        </ol>
+		</div>
+        <footer>
+        	<font id="foot">(C)Бутовский Данила 2021</font>
+        </footer>
+	</body>
+</html>
