@@ -15,7 +15,7 @@ header
 	background-color: white;
 	align-items: center;
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
-	height: 150px;
+	height: 100px;
 	margin-bottom: 40px;
 }
 
@@ -26,20 +26,44 @@ header
 	margin: 0 auto;
 }
 
+.logline
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
 .logo
 {
-	width: 120px;
-	height: 120px;
-	align-items: center;
+	width: 280px;
+	height: 280px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #name-header
 {
 	display: flex;
-	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 	color: gray;
+}
+
+#DB 
+{
+	margin: 0 auto;
+	font-size: 48px;
 	font-weight: bold;
-	font-size: 25px;
+}
+
+#PH 
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 28px;
 }
 
 .contaner
@@ -50,15 +74,17 @@ header
 
 nav
 {
+	font-size: 18px;
 	display: flex;
-	margin: 0 auto;
-	justify-content: space-around;
+	/*margin: 0 auto;*/
+	/*justify-content: space-around;*/
 	font-weight: bold;
 	width: 50%;
 }
 
 nav a
 {
+	margin-right: 30px;
 	color: gray;
 	padding-bottom: 2px;
 }
@@ -90,12 +116,87 @@ a:hover
 	color: gray;
 }
 
-.images
+
+.infoBlocks
+{
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	margin: 0 auto;
+
+}
+
+
+#Block1 
+{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	height:330px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+	text-decoration: none;
+	overflow: hidden;
+	display: inline-block;
+}
+
+
+
+#Block2
+{
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	height:330px;
+	margin: 10px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+	text-decoration: none;
+	overflow: hidden;
+	display: inline-block;
+}
+
+#Block3
+{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	height:330px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+	text-decoration: none;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.AutoInfo
+{
+	margin-top: 100px;
+	display: flex;
+	/*flex-direction: column;*/
+	padding: 20px;
+}
+
+#Avatar
+{
+	margin-right: 120px;
+	margin-top: 30px;
+}
+
+#PInfo
+{
+	width: 65%;
+	/*margin-top: px;*/
+	overflow: hidden;
+	display: inline-block;
+	font-size: 18px;
+}
+
+/*.images
 {
 	width: 450px;
 	height: 300px;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
-}
+}*/
 
 .tab
 {
@@ -308,6 +409,8 @@ footer
 		width: 80%;
 		font-size: 28px;
 	}
+
+
 
 	.images 
 	{
