@@ -1,8 +1,8 @@
 html,body
 {
-	background-image: url('https://butovskiy.github.io/First-website/img/2.1.jpg');
+	background-image: url('img/2.1.jpg');
 	font-size: 15px;
-	font-family: Google Sans;
+	font-family: Montserrat;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -170,33 +170,29 @@ a:hover
 
 .AutoInfo
 {
-	margin-top: 100px;
-	display: flex;
-	/*flex-direction: column;*/
 	padding: 20px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: white;
+	margin-top: 80px;
+	display: flex;
 }
 
 #Avatar
 {
-	margin-right: 120px;
+	margin-left:40px;
+	margin-right: 60px;
 	margin-top: 30px;
 }
 
 #PInfo
 {
+	margin-right: 10px;
 	width: 65%;
-	/*margin-top: px;*/
 	overflow: hidden;
 	display: inline-block;
-	font-size: 18px;
+	font-size: 17px;
 }
-
-/*.images
-{
-	width: 450px;
-	height: 300px;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
-}*/
 
 .tab
 {
@@ -257,7 +253,7 @@ form
 input
 {
 	color: gray;
-	font-family: Google Sans;
+	font-family: Montserrat;
 	background-color: transparent;
 	border: 2px solid transparent;
 }
@@ -265,7 +261,7 @@ input
 input:hover
 {
 	color: gray;
-	font-family: Google Sans;
+	font-family: Montserrat;
 	background-color: transparent;
 	border: 2px solid #f2683a;
 }
@@ -273,7 +269,7 @@ select
 {
 	color: gray;
 	padding: 10px;
-	font-family:Google Sans;
+	font-family: Montserrat;
 	background-color: transparent;
 	border: 2px solid transparent;
 	height: 80px;
@@ -283,7 +279,7 @@ textarea
 {
 	color: gray;
 	padding: 10px;
-	font-family: Google Sans;
+	font-family: Montserrat;
 	background-color: transparent;
 	border: 2px solid transparent;
 }
@@ -292,7 +288,7 @@ textarea
 {
 	color: gray;
 	margin-top: 30px;
-	font-family: Google Sans;
+	font-family: Montserrat;
 	background-color: transparent;
 	border: 2px solid gray;
 }
@@ -301,7 +297,7 @@ textarea
 {
 	color: #f2683a;
 	margin-top: 30px;
-	font-family: Google Sans;
+	font-family: Montserrat;
 	background-color: transparent;
 	border: 2px solid #f2683a;
 }
@@ -327,12 +323,43 @@ footer
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-device-width: 500px)
 {
 	html,body
 	{
-		background-image: url('https://butovskiy.github.io/First-website/img/2.1.jpg');
-		font-family: Google Sans;
+		background-image: url('img/2.1.jpg');
+		font-family: Montserrat;
 		width: 100%;
 		margin: 0;
 		padding: 0;
@@ -493,7 +520,7 @@ footer
 	{
 		font-size: 35px;
 		color: gray;
-		font-family: Google Sans;
+		font-family: Montserrat;
 		background-color: transparent;
 		border: 2px solid transparent;
 	}
@@ -502,7 +529,7 @@ footer
 	{
 		font-size: 35px;
 		color: gray;
-		font-family: Google Sans;
+		font-family: Montserrat;
 		background-color: transparent;
 		border: 2px solid #f2683a;
 	}
@@ -512,7 +539,7 @@ footer
 		font-size: 35px;
 		color: gray;
 		padding: 10px;
-		font-family: Google Sans;
+		font-family: Montserrat;
 		background-color: transparent;
 		border: 2px solid transparent;
 		height: 60px;
@@ -523,7 +550,7 @@ footer
 		font-size: 35px;
 		padding: 10px;
 		color: gray;
-		font-family: Google Sans;
+		font-family: Montserrat;
 		background-color: transparent;
 		border: 2px solid transparent;
 	}
@@ -532,7 +559,7 @@ footer
 	{
 		color: gray;
 		margin-top: 30px;
-		font-family: Google Sans;
+		font-family: Montserrat;
 		background-color: transparent;
 		border: 2px solid gray;
 	}
@@ -541,7 +568,7 @@ footer
 	{
 		color: #f2683a;
 		margin-top: 30px;
-		font-family: Google Sans;
+		font-family: Montserrat;
 		background-color: transparent;
 		border: 2px solid #f2683a;
 	}
